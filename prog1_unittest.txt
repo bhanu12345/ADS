@@ -1,0 +1,15 @@
+import unittest
+from sum_of_multiples_of_3_and_5 import *
+
+class TestSumOfMultiplesOf3And5(unittest.TestCase):
+
+    def test_5(self):
+        self.assertEqual(3, sum_of_multiples_of_3_and_5(5))
+
+    def test_10(self):
+        self.assertEqual(23, sum_of_multiples_of_3_and_5(10))	
+	
+    def test_15(self):
+        self.assertEqual(45, sum_of_multiples_of_3_and_5(15))
+		
+unittest.main()
