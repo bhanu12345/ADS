@@ -1,0 +1,7 @@
+fibSum[max_] := Module[
+  {tot, n, j},
+  tot = 0;
+  n = 0;
+  j = 3;
+  While[n = Fibonacci[j]; n <= max, j += 3; tot += n];
+  tot]
