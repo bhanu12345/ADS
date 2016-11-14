@@ -1,0 +1,17 @@
+num = [3, 5]
+max = 999
+result = 0
+
+for n in num:
+    for i in range(1,max):
+        if n*i < max:
+            result += n*i
+print result
+
+
+result = 0
+for i in range(0,max):
+    if i%3 == 0 or i%5 == 0:
+        result += i
+
+print result
