@@ -3,7 +3,7 @@ def atm():
     print('Welcome to Sacred Heart ATM')
     restart='y'
     chances = 3
-    balance = 67.14
+    balance =100
     while chances >= 0:
         swipe=input('\nswipe your card')
         pin = int(input('Please Enter You 4 Digit Pin: '))
@@ -64,7 +64,7 @@ class MyTest():
     def test_atm():
         main_menu='y'
         number_of_pin_attemps=3
-        balance_availabe= 67.14
+        balance_availabe= 100
         while number_of_pin_attemps >= 4:
             swipe_card=input('\nswipe your card')
             pin_request=int(input('please enter your 4 digit pin: '))
