@@ -125,8 +125,8 @@ class MyTest():
                     
             elif pin != ('1234'):
                 print('Incorrect Password')
-                chances = chances - 1
-                if chances == 0:
+                number_of_pin_attempts = number_of_pin_attempts - 1
+                if number_of_pin_attempts == 0:
                     print('\nNo more tries')
                     break
 
