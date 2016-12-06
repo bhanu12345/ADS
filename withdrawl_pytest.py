@@ -20,7 +20,7 @@ def atm():
                     print('enter correct option')
                     break
                 elif option == 1:
-                    print ('\n', today)
+                    print ('receipt \n', today)
                     print('\nYour Balance is $',balance,'\n')
                     restart = input('Would You you like to go back(y/n)? ')
                     if restart in ('n','NO','no','N'):
@@ -30,7 +30,7 @@ def atm():
                     withdrawl = float(input('\nHow Much Would you like to withdraw? \n \n$10,$20,$40,$60,$80,$100 for other enter 1: '))
                     if withdrawl in [10, 20, 40, 60, 80, 100]:
                         balance = balance - withdrawl
-                        print ('\n', today)
+                        print ('Receipt \n', today)
                         print('\nwithdraw amount : $',withdrawl)
                         print ('\nYour Current Balance is $',balance)
                         restart = input('\nWould You you like to go back(y/n)? ')
@@ -46,7 +46,7 @@ def atm():
                 elif option == 3:
                     Pay_in = float(input('How Much Would You like to Deposit '))
                     balance = balance + Pay_in
-                    print ('\n',today)
+                    print ('Receipt \n',today)
                     print ('\nDeposit: ', Pay_in)
                     print ('\nYour current Balance is now $',balance,)
                     restart = input('\nWould You you like to go back( y/n)? ')
