@@ -71,7 +71,7 @@ class MyTest():
         main_menu='y'
         number_of_pin_attemps=3
         balance_availabe= 67.14
-        while number_of_pin_attemps >= 4:
+        while number_of_pin_attemps >= 3:
             swipe_card=input('\nswipe your card')
             pin_request=int(input('please enter your 4 digit pin: '))
             pin_request == 0
