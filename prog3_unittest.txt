@@ -13,4 +13,3 @@ def prime_factors(n):
 
 pfs = prime_factors(1000)
 largest_prime_factor = max(pfs)
-/**hello hi
