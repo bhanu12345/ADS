@@ -13,3 +13,5 @@ class TestSumOfMultiplesOf3And5(unittest.TestCase):
         self.assertEqual(45, sum_of_multiples_of_3_and_5(15))
 		
 unittest.main()
+
+/*** hi practice git
