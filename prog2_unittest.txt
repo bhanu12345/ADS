@@ -5,4 +5,4 @@ fibSum[max_] := Module[
   j = 3;
   While[n = Fibonacci[j]; n <= max, j += 3; tot += n];
   tot]
-  /* hello welcome to python
+  /*welcome to python
